@@ -1,2 +1,2 @@
 # holbertonschool-binary_trees
-README for binaty trees
+README for binary trees
