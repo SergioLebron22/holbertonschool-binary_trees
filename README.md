@@ -1,2 +1,3 @@
 # holbertonschool-binary_trees
-README for binary trees
+
+By: Sergio Lebron & Jeremy Etienne
