@@ -3,8 +3,8 @@
 /**
  * binary_tree_size - will count the depth from the node passed
  *
- * @tree: pointer to root node
- * 
+ * @node: pointer to root node
+ *
  * Return: depth, 0 if tree is NULL
 */
 
