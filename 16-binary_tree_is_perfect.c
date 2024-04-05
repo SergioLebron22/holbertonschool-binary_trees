@@ -14,16 +14,16 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-	
+
 	if (tree->left)
 		perfectLeft = binary_tree_is_perfect(tree->left);
-	
+
 	if (tree->right)
 		perfectRight = binary_tree_is_perfect(tree->right);
-	
+
 	if (binary_tree_is_full(tree) && !binary_tree_balance(tree))
 		return (perfectLeft * perfectRight);
-	
+
 	return (0);
 }
 
